@@ -258,21 +258,24 @@ button.btn-login:hover {
     overflow: hidden;
 
 }
-.content{
+
+.content {
     padding-top: 118px;
     color: #cdd4de;
 }
 
-.content h1{
+.content h1 {
     font-weight: 900;
     font-size: 8.5rem;
     opacity: 0.6;
 }
-.content h2{
+
+.content h2 {
     font-weight: 600;
     font-size: 2.2rem;
     opacity: 0.9;
 }
+
 
 @media (min-width: 1200px) {
     html {
@@ -342,7 +345,7 @@ button.btn-login:hover {
     }
 }
 
-@media(max-width: 225px){
+@media (max-width: 225px) {
     button.btn-login {
         letter-spacing: 0;
         font-weight: inherit;
@@ -354,18 +357,21 @@ button.btn-login:hover {
     }
 
     button.loginBtn {
-        letter-spacing:0;
+        letter-spacing: 0;
         font-weight: inherit;
         font-size: 0.5rem;
     }
+
     form {
         font-size: 0.5rem;
     }
-    div.card-body{
-        padding:0;
-        margin:0;
+
+    div.card-body {
+        padding: 0;
+        margin: 0;
     }
 }
+
 @media (max-width: 200px) {
 
     .jumbo {
@@ -383,6 +389,5 @@ button.btn-login:hover {
     .jumbo h1 {
         font-size: 12px;
     }
-
 
 }
